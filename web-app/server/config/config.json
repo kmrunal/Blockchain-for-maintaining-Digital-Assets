@@ -1,12 +1,12 @@
 {
     "channel_name": "mychannel",
     "smart_contract_name": "blockchain-for-maintaining-digital-assets",
-    "connection_file": "connection_profile.json",
-    "appAdmin": "app-admin1",
-    "appAdminSecret": "app-admin1pw",
-    "orgMSPID": "Org6MSP",
-    "caName": "multicloud3-org6ca-ca.multicloud3roles-1abd866a65a6a73350903823fc77cd5f-0000.us-south.containers.appdomain.cloud:443",
-    "peerName": "multicloud3-org6peer-peer.multicloud3roles-1abd866a65a6a73350903823fc77cd5f-0000.us-south.containers.appdomain.cloud:443",
+    "connection_file": "Org1MSP_profile.json",
+    "appAdmin": "app-admin",
+    "appAdminSecret": "app-adminpw",
+    "orgMSPID": "Org1MSP",
+    "caName": "159.122.179.66:31577",
+    "peerName": "159.122.179.66:31442",
     "gatewayDiscovery": { "enabled": true, "asLocalhost": false },
     "smtpHost": "smtp.mailtrap.io",
     "smtpPort": 2525,
@@ -14,7 +14,7 @@
     "smtpPassword": "659bdfcafeb6cd",
     "senderEmail": "no-reply@digitalassetscodepattern.com",
     "cos_endpoint":  "s3.us-east.cloud-object-storage.appdomain.cloud",
-    "cos_apiKeyId":  "uUjJ_FwNhiMIoaI45YiX4FiXO3YimrOmgwaSTCqsv30r",
-    "cos_serviceInstanceId":  "crn:v1:bluemix:public:cloud-object-storage:global:a/7ecfb7f5a3ae4e77b5a95de5f2f4bd54:fedf6162-8b1b-4674-a14a-c2f2885c83bd::",
-    "cos_bucketName": "digitalasset1" 
+    "cos_apiKeyId":  "KY60SqbkoRLp38LzK4Wky2KPTjJ3bZduE57HerYgYvcB",
+    "cos_serviceInstanceId":  "crn:v1:bluemix:public:cloud-object-storage:global:a/5ae49c312ffe46e7becb9dc88f3a9433:3485ff0a-a2cf-4b97-b1d1-2f6d460780e6::",
+    "cos_bucketName": "cloud-object-storage-xs-cos-standard-35h" 
  }

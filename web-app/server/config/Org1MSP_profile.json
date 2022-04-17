@@ -1,0 +1,41 @@
+{
+    "name": "Org1MSPprofile",
+    "description": "Network on IBP v2",
+    "version": "1.0.0",
+    "client": {
+        "organization": "Org1MSP"
+    },
+    "organizations": {
+        "Org1MSP": {
+            "mspid": "Org1MSP",
+            "certificateAuthorities": [
+                "159.122.179.66:31577"
+            ],
+            "peers": [
+                "159.122.179.66:31442"
+            ]
+        }
+    },
+    "peers": {
+        "159.122.179.66:31442": {
+            "url": "grpcs://159.122.179.66:31442",
+            "tlsCACerts": {
+                "pem": "-----BEGIN CERTIFICATE-----\nMIICDDCCAbKgAwIBAgIUJ4hkcprHfkLvn6AjDe+1UwTGG4MwCgYIKoZIzj0EAwIw\nZDELMAkGA1UEBhMCVVMxFzAVBgNVBAgTDk5vcnRoIENhcm9saW5hMRQwEgYDVQQK\nEwtIeXBlcmxlZGdlcjEPMA0GA1UECxMGRmFicmljMRUwEwYDVQQDEwxvcmcxY2Et\ndGxzY2EwHhcNMjIwNDE2MTkxNjAwWhcNMzcwNDEyMTkxNjAwWjBkMQswCQYDVQQG\nEwJVUzEXMBUGA1UECBMOTm9ydGggQ2Fyb2xpbmExFDASBgNVBAoTC0h5cGVybGVk\nZ2VyMQ8wDQYDVQQLEwZGYWJyaWMxFTATBgNVBAMTDG9yZzFjYS10bHNjYTBZMBMG\nByqGSM49AgEGCCqGSM49AwEHA0IABCaZHqFnNluueOjkQsQ6X6117HhUXNfSUuFr\n7BgIWPcNUR/HYd5VUGSvFIN67uCH97YNsNwnfaBvNA4iNIc97ZGjQjBAMA4GA1Ud\nDwEB/wQEAwIBBjAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBQwubDuQWAqGUnB\nwG8SUVSdogvZajAKBggqhkjOPQQDAgNIADBFAiEAm7gdSVUHXp5KLDRwfheHNl+w\njBKZzy1PTWYYL2dSULcCIFiqRnAXPozYHs2NhUb3JF8tCkmspfWRqyHMOSSXwd/c\n-----END CERTIFICATE-----\n"
+            },
+            "grpcOptions": {
+                "ssl-target-name-override": "159.122.179.66"
+            }
+        }
+    },
+    "certificateAuthorities": {
+        "159.122.179.66:31577": {
+            "url": "https://159.122.179.66:31577",
+            "caName": "ca",
+            "tlsCACerts": {
+                "pem": [
+                    "-----BEGIN CERTIFICATE-----\nMIIB/TCCAaSgAwIBAgIRAJJevL0mVUDLwBXY+5uTqWYwCgYIKoZIzj0EAwIwczEL\nMAkGA1UEBhMCVVMxFzAVBgNVBAgTDk5vcnRoIENhcm9saW5hMQ8wDQYDVQQHEwZE\ndXJoYW0xDDAKBgNVBAoTA0lCTTETMBEGA1UECxMKQmxvY2tjaGFpbjEXMBUGA1UE\nAxMOMTU5LjEyMi4xNzkuNjYwHhcNMjIwNDE2MTkyMTA1WhcNMzIwNDEzMTkyMTA1\nWjBzMQswCQYDVQQGEwJVUzEXMBUGA1UECBMOTm9ydGggQ2Fyb2xpbmExDzANBgNV\nBAcTBkR1cmhhbTEMMAoGA1UEChMDSUJNMRMwEQYDVQQLEwpCbG9ja2NoYWluMRcw\nFQYDVQQDEw4xNTkuMTIyLjE3OS42NjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IA\nBD26wsq3IESRrnOptwit+GjtYqz13Z6YOv5e6YYYkdCIb15xFYMVfaotaRnlFTMT\n425iKVMQcaQF7GdRfwA3ItqjGTAXMBUGA1UdEQQOMAyHBJ96s0KHBJ96s0IwCgYI\nKoZIzj0EAwIDRwAwRAIgdyBRgS4OHxTt8Q9ypSch7hvIrx+1Io+Z0g3xdmATycAC\nIEFUomLrJjaqZKpjLn+/EVXCreeup/cR/V1iuhuMfT6q\n-----END CERTIFICATE-----\n"
+                ]
+            }
+        }
+    }
+}
